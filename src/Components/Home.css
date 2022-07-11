@@ -1,0 +1,29 @@
+.heading{
+    border: 1px solid #313134;
+    background: #313134;
+    color: aliceblue;
+    text-align: center;
+    padding: 6px;
+    border-radius: 0.5rem;
+/* position: absolute; */
+    left: 0px;
+    top: 0px;
+    z-index: -1
+}
+.btn{
+    background: #81E6D9 !important;
+    color: #1A202C !important;
+  
+
+}
+
+canvas {
+    opacity: 0;
+    touch-action: none;
+    animation: fade-in 2s ease 0.3s forwards;
+    animation-delay: 0s;
+}
+
+svg {
+    fill: #fefefe;
+}
