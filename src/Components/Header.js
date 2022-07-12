@@ -21,12 +21,12 @@ const Header = () => {
             <Navbar collapseOnSelect expand="lg" >
                 <Container>
                     <Navbar.Brand className='text-white'  as={Link} to='/'>Takuya Matsuyama</Navbar.Brand>
-                    <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+                    <Navbar.Toggle className='bg-white' aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="me-auto">
                             {/* <Nav.Link as={Link} to='/'>Home</Nav.Link> */}
                             <Nav.Link className='text-white'  as={Link} to='/work'>Work</Nav.Link>
-                            <Nav.Link className='text-white' as={Link} to='/post'>Post</Nav.Link>
+                            <Nav.Link className='text-white'  as={Link} to='/post'>Post</Nav.Link>
                            
                         </Nav>
                         <Nav className='ms-auto'> 
